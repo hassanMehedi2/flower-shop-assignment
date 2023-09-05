@@ -36,7 +36,7 @@ line-height: normal;
     align-items: center;
 }
 
-.header-content{width: 708px;
+.header-content{
     padding-top: 197px;
     margin: 0px 97px 140px 240px;
 }
@@ -67,10 +67,68 @@ line-height: normal;
     width: 635px;
     height: 800px;
 }
+
+
+/* best-seller-section */
+.best-seller-section{
+    border-radius: 8px;
+    background: rgba(5, 151, 160, 0.05);
+    margin-top:70px;
+}
+.best-seller{
+    padding: 13px 240px 30px 240px;
+}
+#bestseller-title-span{
+    color: #E55473;
+    font-size: 45px;
+}
+.bestseller-title{padding-top: 20px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bestseller-content{
+    padding: 45px 0px 0px 0px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.bestseller-image{
+    width: 300px;
+height: 350px;
+border-radius: 8px;
+}
+
+.bestseller-img-name{
+    color: rgba(39, 39, 39, 0.80);
+    margin-top: 10px;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 145.833% */
+}
+.order-now{
+    margin : 30px 30px;
+     text-align: center;
+}
+.order-now-btn{
+    align-items: end;
+    width: 180px;
+   
+}
+
+
 /* featured section style*/
 
 .featured-flowers{
-    margin: 178px 240px 0px 240px;
+    margin: 100px 240px 0px 240px;
    
 }
 
@@ -120,7 +178,7 @@ height: 370px;
 height: 471px;
 }
 .flower-caption{
-    margin: 32px 318px 128px 381px;
+    margin: 32px 351px 128px 351px;
     display: flex;
     gap: 307px;
     
