@@ -198,12 +198,42 @@ display: flex;
     line-height: 28px;
     margin-bottom: 30px; /* 166.667% */
 }
-
-
-
-
 .hot-deal-image{
     padding :100px 429px 100px 0px;
     width: 318px;
 height: 420px;
+}
+
+/*instagram section */
+
+.instagram-title{
+    margin-top: 128px;
+    text-align: center;
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    
+}
+.instagram-subtitle{
+    padding: 24px 663px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.instagram-image{
+    margin: 24px 240px 128px 240px;
+    display: flex;
+    gap: 24px;
+}
+
+.insta-image{
+    width: 342px;
+height: 396px;
 }
