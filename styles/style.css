@@ -1,0 +1,209 @@
+/*shared file */
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+main{
+    width: 1920px;
+}
+.primary-button{
+    height:64px;
+    width:  155px;
+
+border: none;
+border-radius: 8px;
+background: #E55473;
+
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+/* header secttion style */
+.header-section{
+    width: 1920px;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.header-content{width: 708px;
+    padding-top: 197px;
+    margin: 0px 97px 140px 240px;
+}
+
+.header-title{
+    
+    color: #272727;
+    font-size: 74px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.header-subtitle {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 670px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+#header-button{
+    width: 177px;
+}
+.header-image{
+    margin: 50px 240px 0px 0px;
+    width: 635px;
+    height: 800px;
+}
+/* featured section style*/
+
+.featured-flowers{
+    margin: 178px 240px 0px 240px;
+   
+}
+
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.featured-subtitle{
+    
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 48px;
+}
+.featured-image{
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+.featured-image-background{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(167, 33, 98, 0.15);
+}
+.featured-img1{
+    padding: 110px 78px 0px 76px;
+    width: 310px;
+    height: 428px;
+}
+.featured-img2{
+    padding: 117px 47px 51px 47px;
+    width: 370px;
+height: 370px;
+}
+.featured-img3{
+    padding: 67px 75px 0px 75px;
+    width: 314px;
+height: 471px;
+}
+.flower-caption{
+    margin: 32px 318px 128px 381px;
+    display: flex;
+    gap: 307px;
+    
+}
+.flower-caption p{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px; /* 145.833% */
+text-decoration-line: underline;
+}
+
+
+
+
+.bonus-section{
+    margin: 0px 240px 128px 240px;
+    width: 1440px;
+height: 320px;
+border: none;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+align-items: center;
+
+}
+.bonus{text-align: center;
+    
+    padding : 86px 175px;
+    display: flex;
+    gap: 100px;
+}
+
+.bonus-title{
+    color: rgba(39, 39, 39, 0.80);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 145.833% */
+}
+
+/* hot deal section */
+
+.hot-deal-section{
+    width: 1922px;
+height: 620px;
+border: none;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+}
+.hot-deal-content{
+    padding : 230px 186px 158px 395px;
+    text-align: center;
+}
+
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+#off-span{
+    color: #E55473;
+}
+.hot-deal-subtitle{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px; /* 166.667% */
+}
+
+
+
+
+.hot-deal-image{
+    padding :100px 429px 100px 0px;
+    width: 318px;
+height: 420px;
+}
